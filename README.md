@@ -53,6 +53,7 @@ Business Value:
 2. Feature Engineering
 
 Created meaningful behavioural and lifecycle features, including:
+
 	•	tenure_days, is_loyal
 	•	watch_per_fee_ratio (perceived value)
 	•	low_watch_time, high_engagement
