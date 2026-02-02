@@ -65,7 +65,7 @@ These features capture engagement intensity, perceived value, and lifecycle risk
    
 	•	Churn rate analysis across demographics, plans, and behaviour
 	•	Cohort analysis using signup dates
-	•	Statistical tests:
+	•	Statistical tests
 	•	Chi-square for categorical relationships
 	•	t-test for watch-time differences
 	•	Correlation & Phi tests for feature relationships
@@ -75,7 +75,7 @@ These features capture engagement intensity, perceived value, and lifecycle risk
 	•	Logistic Regression (with L1 regularisation & hyperparameter tuning)
 	•	Random Forest to capture non-linear behaviour
 	•	Addressed class imbalance using class weighting
-	•	Model evaluation using:
+	•	Model evaluation using
 	•	Precision, Recall, F1-score
 	•	Confusion Matrix
 	•	ROC-AUC
