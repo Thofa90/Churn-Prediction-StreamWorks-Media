@@ -47,16 +47,21 @@ Business Value:
 1. Data Cleaning & Preparation
    
 	•	Corrected data types (dates, categorical, numeric, target variable)
+
 	•	Handled missing values using business-aware logic (e.g. plan-based pricing)
+
 	•	Standardised text fields and removed non-informative features
 
-2. Feature Engineering
+3. Feature Engineering
 
 Created meaningful behavioural and lifecycle features, including:
 
 	•	tenure_days, is_loyal
+	
 	•	watch_per_fee_ratio (perceived value)
+	
 	•	low_watch_time, high_engagement
+	
 	•	low_value_user, heavy_mobile_user
 
 These features capture engagement intensity, perceived value, and lifecycle risk.
@@ -64,13 +69,19 @@ These features capture engagement intensity, perceived value, and lifecycle risk
 3. Exploratory Data Analysis (EDA)
    
 	•	Churn rate analysis across demographics, plans, and behaviour
+
 	•	Cohort analysis using signup dates
+
 	•	Statistical tests
+
 	•	Chi-square for categorical relationships
+
 	•	t-test for watch-time differences
+
 	•	Correlation & Phi tests for feature relationships
 
-4. Predictive Modelling
+
+5. Predictive Modelling
    
 	•	Logistic Regression (with L1 regularisation & hyperparameter tuning)
 	•	Random Forest to capture non-linear behaviour
