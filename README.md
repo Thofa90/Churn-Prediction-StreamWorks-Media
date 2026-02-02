@@ -61,6 +61,7 @@ Created meaningful behavioural and lifecycle features, including:
 These features capture engagement intensity, perceived value, and lifecycle risk.
 
 3. Exploratory Data Analysis (EDA)
+   
 	•	Churn rate analysis across demographics, plans, and behaviour
 	•	Cohort analysis using signup dates
 	•	Statistical tests:
@@ -68,7 +69,8 @@ These features capture engagement intensity, perceived value, and lifecycle risk
 	•	t-test for watch-time differences
 	•	Correlation & Phi tests for feature relationships
 
-5. Predictive Modelling
+4. Predictive Modelling
+   
 	•	Logistic Regression (with L1 regularisation & hyperparameter tuning)
 	•	Random Forest to capture non-linear behaviour
 	•	Addressed class imbalance using class weighting
@@ -82,11 +84,13 @@ These features capture engagement intensity, perceived value, and lifecycle risk
 **📈 Key Findings & Business Insights**
 
 🔴 Strongest Churn Drivers
+
 	•	Low watch time → strongest and clearest churn signal
 	•	Low perceived value-for-money
 	•	Lifecycle effects: both early disengagement and long-tenure fatigue
 
 🟢 Retention Signals
+
 	•	High engagement users churn significantly less
 	•	Promotions and referrals modestly reduce churn risk
 	•	Pricing tier alone does not drive churn — value perception does
@@ -98,6 +102,7 @@ Churn is driven by silent disengagement, not complaints or demographics.
 ⸻
 
 **📌 Final Recommendations**
+
 	•	Trigger early engagement nudges for low watch-time users (first 30–60 days)
 	•	Launch re-engagement programs for long-tenure users (content refresh, loyalty rewards)
 	•	Focus promotions on low-engagement, low-value-perception users
@@ -106,6 +111,7 @@ Churn is driven by silent disengagement, not complaints or demographics.
 ⸻
 
 **🛠️ Tools & Technologies**
+
 	•	Python, Pandas, NumPy
 	•	scikit-learn (Logistic Regression, Random Forest, GridSearchCV)
 	•	Matplotlib & Seaborn for visualisation
