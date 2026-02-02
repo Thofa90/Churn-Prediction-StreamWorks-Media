@@ -54,7 +54,7 @@ Business Value:
 
 3. Feature Engineering
 
-Created meaningful behavioural and lifecycle features, including:
+Created meaningful behavioural and lifecycle features, including-
 
 	•	tenure_days, is_loyal
 	
@@ -84,11 +84,17 @@ These features capture engagement intensity, perceived value, and lifecycle risk
 5. Predictive Modelling
    
 	•	Logistic Regression (with L1 regularisation & hyperparameter tuning)
+
 	•	Random Forest to capture non-linear behaviour
+
 	•	Addressed class imbalance using class weighting
+
 	•	Model evaluation using
+
 	•	Precision, Recall, F1-score
+
 	•	Confusion Matrix
+
 	•	ROC-AUC
 
 ⸻
